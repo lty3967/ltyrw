@@ -227,49 +227,55 @@ if(($ll_nowtime - $ll_lasttime) < 3){
     </div>
   </section>
 
-  <!-- ===== 会员价格 ===== -->
-  <section class="section" id="pricing">
-    <h2 class="center">VIP 会员</h2>
-    <div class="cards-3col">
-      <div class="card">
-        <h3>月付VIP</h3>
-        <div class="price">¥10 <span>/ 月</span></div>
-        <ul>
-          <li>享用VIP专属服务器</li>
-          <li>享受离线超快频率</li>
-          <li>开启全部VIP功能</li>
-          <li>可使用单向好友检测</li>
-          <li>享受VIP专属售后服务</li>
-        </ul>
-        <a href="/index.php?mod=reg" class="btn-primary">注册</a>
-      </div>
-      <div class="card recommend">
-        <div class="badge">最受欢迎</div>
-        <h3>年付VIP</h3>
-        <div class="price">¥100 <span>/ 年</span></div>
-        <ul>
-          <li>享用VIP专属服务器</li>
-          <li>享受离线超快频率</li>
-          <li>开启全部VIP功能</li>
-          <li>可使用单向好友检测</li>
-          <li>享受VIP专属售后服务</li>
-        </ul>
-        <a href="/index.php?mod=reg" class="btn-primary">注册</a>
-      </div>
-      <div class="card">
-        <h3>永久VIP</h3>
-        <div class="price">¥188 <span>/ 永久</span></div>
-        <ul>
-          <li>享用VIP专属服务器</li>
-          <li>享受离线超快频率</li>
-          <li>开启全部VIP功能</li>
-          <li>可使用单向好友检测</li>
-          <li>享受VIP专属售后服务</li>
-        </ul>
-        <a href="/index.php?mod=reg" class="btn-primary">注册</a>
-      </div>
+<!-- ===== 会员价格 ===== -->
+<section class="section" id="pricing">
+  <h2 class="center">VIP 会员</h2>
+  <div class="cards-3col">
+
+    <!-- 月付VIP -->
+    <div class="card">
+      <h3>月付VIP</h3>
+      <div class="price">¥10 <span>/ 月</span></div>
+      <ul>
+        <li>享用VIP专属服务器</li>
+        <li>享受离线超快频率</li>
+        <li>开启全部VIP功能</li>
+        <li>可使用单向好友检测</li>
+        <li>享受VIP专属售后服务</li>
+      </ul>
+      <a href="/index.php?mod=reg" class="btn-primary">注册</a>
     </div>
-  </section>
+
+    <!-- 年付VIP -->
+    <div class="card recommend">
+      <h3>年付VIP</h3>
+      <div class="price">¥100 <span>/ 年</span></div>
+      <ul>
+        <li>享用VIP专属服务器</li>
+        <li>享受离线超快频率</li>
+        <li>开启全部VIP功能</li>
+        <li>可使用单向好友检测</li>
+        <li>享受VIP专属售后服务</li>
+      </ul>
+      <a href="/index.php?mod=reg" class="btn-primary">注册</a>
+    </div>
+
+    <!-- 永久VIP -->
+    <div class="card">
+      <h3>永久VIP</h3>
+      <div class="price">¥188 <span>/ 永久</span></div>
+      <ul>
+        <li>享用VIP专属服务器</li>
+        <li>享受离线超快频率</li>
+        <li>开启全部VIP功能</li>
+        <li>可使用单向好友检测</li>
+        <li>享受VIP专属售后服务</li>
+      </ul>
+      <a href="/index.php?mod=reg" class="btn-primary">注册</a>
+    </div>
+
+  </div>
+</section>
 
   <!-- ===== 用户评价 ===== -->
   <section class="section">
@@ -356,6 +362,7 @@ if(($ll_nowtime - $ll_lasttime) < 3){
 </footer>
 
 <script src="/lty/js/script.js"></script>
+
 <!-- ===== 版权信息，请勿随意修改，尊重原作者，非常感谢 ===== -->
 <script>
   (() => {
