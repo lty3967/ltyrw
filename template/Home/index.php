@@ -356,5 +356,21 @@ if(($ll_nowtime - $ll_lasttime) < 3){
 </footer>
 
 <script src="/lty/js/script.js"></script>
+<script>
+  (() => {
+    'use strict';
+
+    const brand = '彩虹云任务首页模板 v1.0';
+    const author = 'by 龍腾云任务 | https://ch.ltywl.top';
+
+    console.log(
+      `%c${brand}%c${author}`,
+      // 蓝色块
+      'background-color:#007aff;color:#ffffff;font-size:16px;padding:6px 12px;border-radius:4px 0 0 4px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:600;',
+      // 深灰块
+      'background-color:#1d1d1f;color:#ffffff;font-size:16px;padding:6px 12px;border-radius:0 4px 4px 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;'
+    );
+  })();
+</script>
 </body>
 </html>
