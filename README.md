@@ -1,6 +1,11 @@
 # 彩虹云任务首页模板
 1.2026年全新界面，响应式布局，极简风格的彩虹云任务模板
+
 2.拥有亮白模式和暗黑模式随意切换
+
+3.下载源码后直接解压到根目录即可
+
+
 # 前台首页界面
 1.亮白页面
 <img width="2491" height="1415" alt="image" src="https://github.com/user-attachments/assets/d045b9fd-5bbc-406e-a5df-76ef9f0f6374" />
