@@ -351,11 +351,12 @@ if(($ll_nowtime - $ll_lasttime) < 3){
         <p>ch.ltywl.top</p>
       </div>
     </div>
-    <p class="copyright">Copyright © 2015 - <?=$currentYear?> 龍腾云任务</p>
+    <p class="copyright">Copyright © 2015 - <?=$currentYear?> <?=$conf['sitename']?></p>
   </div>
 </footer>
 
 <script src="/lty/js/script.js"></script>
+<!-- ===== 版权信息，请勿随意修改，尊重原作者，非常感谢 ===== -->
 <script>
   (() => {
     'use strict';
