@@ -247,7 +247,7 @@ if(($ll_nowtime - $ll_lasttime) < 3){
     </div>
 
     <!-- 年付VIP -->
-    <div class="card recommend">
+    <div class="card">
       <h3>年付VIP</h3>
       <div class="price">¥100 <span>/ 年</span></div>
       <ul>
@@ -261,7 +261,7 @@ if(($ll_nowtime - $ll_lasttime) < 3){
     </div>
 
     <!-- 永久VIP -->
-    <div class="card">
+    <div class="card recommend">
       <h3>永久VIP</h3>
       <div class="price">¥188 <span>/ 永久</span></div>
       <ul>
