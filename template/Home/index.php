@@ -366,8 +366,8 @@ if(($ll_nowtime - $ll_lasttime) < 3){
 
     console.log(
       `%c${brand}%c${author}`,
-      // 蓝色块
-      'background-color:#007aff;color:#ffffff;font-size:16px;padding:6px 12px;border-radius:4px 0 0 4px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:600;',
+      // 绿色块
+      'background-color:#00e5a0;color:#ffffff;font-size:16px;padding:6px 12px;border-radius:4px 0 0 4px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:600;',
       // 深灰块
       'background-color:#1d1d1f;color:#ffffff;font-size:16px;padding:6px 12px;border-radius:0 4px 4px 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;'
     );
