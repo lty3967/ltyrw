@@ -282,6 +282,10 @@ nav {
   margin-top: 6px;
 }
 
+.stats-grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 /* =========================================================
    按钮（Vercel 风）
    ========================================================= */
@@ -308,7 +312,6 @@ nav {
 .cards-2col {
   display: grid;
   gap: 24px;
-  overflow: visible;
 }
 
 .cards-3col {
@@ -320,7 +323,6 @@ nav {
 }
 
 .card {
-  position: relative;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -333,17 +335,33 @@ nav {
   transform: translateY(-2px);
 }
 
-/* =========================================================
-   推荐卡片 · 顶部徽章
-   ========================================================= */
+.card h3,
+.card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* 卡片基础定位 */
+.card {
+  position: relative;
+}
+
+/* 顶部悬浮徽章 */
 .card.recommend::before {
   content: '最受欢迎';
   position: absolute;
   top: -12px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 20;
 
+  /* Apple 风格 */
   background-color: var(--accent);
   color: #ffffff;
   font-size: 12px;
@@ -351,9 +369,10 @@ nav {
   padding: 4px 12px;
   border-radius: 4px;
   letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
+  z-index: 10;
   white-space: nowrap;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -552,6 +571,7 @@ footer {
   .burger {
     display: flex;
   }
+
 
   .theme-toggle {
     bottom: 24px;
